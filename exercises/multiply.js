@@ -9,6 +9,10 @@
  */
 
 // Your code :
+function multiply(a, b) {
+    const result = eval(a + String.fromCharCode(42) + b);
+    return result;
+};
 
 //* Begin of tests
 const assert = require('assert')
