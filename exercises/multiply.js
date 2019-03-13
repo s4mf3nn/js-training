@@ -9,10 +9,19 @@
  */
 
 // Your code :
-function multiply(a, b) {
-    const result = eval(a + String.fromCharCode(42) + b);
-    return result === -0 ? 0 : result;
-};
+
+// if pour ajout du signe - sinon échec à partir de la ligne 38
+const multiply = (a, b) => {
+    let sum = 0;
+    if (b < 0) {
+        b = -b;
+        a = -a;
+    };
+    for (let i = 0; i < b; i++) {
+        sum += a;
+    }
+    return sum;
+}
 
 //* Begin of tests
 const assert = require('assert')
