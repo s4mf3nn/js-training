@@ -9,7 +9,7 @@
  * @notions Functions, Ternary
  */
 
-// Your code :
+// My code :
 const min = (n1, n2) => n1 < n2 ? n1 : n2;
 
 //* Begin of tests
