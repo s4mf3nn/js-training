@@ -1,7 +1,7 @@
 {
   "scripts": {
     "update": "git reset && git stash && git pull https://github.com/nan-ci/js.git master && git stash pop",
-    "test": "./tester basics math"
+    "test": "./tester basics math get"
   },
   "private": true,
   "index": "primitives.js",
