@@ -11,7 +11,7 @@
 // Your code :
 function multiply(a, b) {
     const result = eval(a + String.fromCharCode(42) + b);
-    return result;
+    return result === -0 ? 0 : result;
 };
 
 //* Begin of tests
