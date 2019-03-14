@@ -8,6 +8,7 @@
  */
 
 // Your code :
+
 const getFirst = array => array[0];
 
 //* Begin of tests
