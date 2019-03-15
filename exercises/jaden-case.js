@@ -13,7 +13,6 @@
 // Your code
 // https://www.freecodecamp.org/forum/t/problem-with-challenge-title-case-a-sentence/158860
 
-
 function jadenCase(str) {
     str = str.split(" ", str.length);
     var upperCase = "";
