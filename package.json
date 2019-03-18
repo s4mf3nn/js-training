@@ -14,6 +14,13 @@
       ]
     },
     {
+      "name": "poo",
+      "tags": [
+        "basics",
+        "declaration"
+      ]
+    },
+    {
       "name": "escape-str",
       "tags": [
         "str",
